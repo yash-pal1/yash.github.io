@@ -397,7 +397,7 @@ function initProjectsData() {
             id: 1,
             title: "Image Classification from Scratch (CNN)",
             description: "Built CNN models from scratch without pretrained networks. Achieved 91% accuracy with advanced techniques like data augmentation, batch normalization, dropout, and LR scheduling. Includes feature map visualization and error analysis.",
-            image: "https://i.postimg.cc/bJ1K4PrM/1-Image-Classification.png ",
+            image: "https://i.postimg.cc/hPs2JjNZ/1-Image-Classification.png ",
             category: "ml",
             tags: ["Python", "CNN", "TensorFlow", "Deep Learning", "Computer Vision"],
         },
