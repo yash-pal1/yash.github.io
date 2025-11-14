@@ -1,0 +1,181 @@
+################################################################################
+# OS FILES
+################################################################################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+################################################################################
+# IDE / EDITOR SETTINGS
+################################################################################
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+.history/
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+################################################################################
+# NODE.JS / JAVASCRIPT
+################################################################################
+
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.cache/
+.eslintcache
+
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# dotenv environment files
+.env
+.env.*
+!.env.example
+
+################################################################################
+# JS BUNDLERS (Webpack, Vite, Parcel, etc.)
+################################################################################
+
+# Vite
+vite.config.ts.timestamp*
+vite.config.js.timestamp*
+
+# Webpack
+webpack.stats.json
+
+# Parcel cache
+.cache/
+.parcel-cache/
+
+# Babel
+.babelrc
+.babelrc.js
+.babelrc.json
+babel.config.js
+
+################################################################################
+# FRONTEND FRAMEWORKS (React, Vue, Svelte, etc.)
+################################################################################
+
+# React
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Vue
+*.vuepress/dist
+*.temp
+.vuepress/dist
+
+# Svelte
+.svelte-kit/
+.svelte/
+
+################################################################################
+# PYTHON (IF YOU USE ML/UTILITY SCRIPTS)
+################################################################################
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.h5
+*.model
+venv/
+.venv/
+env/
+ENV/
+
+################################################################################
+# DEPLOYMENT / HOSTING
+################################################################################
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Firebase
+.firebase/
+.firebaserc
+firebase-debug.log
+
+# GitHub Pages build cache
+.cache/
+.jekyll-cache/
+.jekyll-metadata
+
+################################################################################
+# TEMPORARY FILES / BACKUPS
+################################################################################
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swx
+*.orig
+
+################################################################################
+# IMAGES / DESIGN SOFTWARE
+################################################################################
+
+# Photoshop / Illustrator / XD temp files
+*.psd
+*.ai
+*.xd
+*.sketch
+
+################################################################################
+# OPTIONAL: CNAME FILE
+################################################################################
+
+# Do NOT ignore this if using custom domain
+# CNAME
+
+################################################################################
+# MISC
+################################################################################
+
+*.zip
+*.tar.gz
+*.7z
+.idea_modules/
+temp/
+tmp/
