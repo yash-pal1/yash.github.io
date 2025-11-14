@@ -264,7 +264,7 @@ const CHATBOT_CONFIG = {
         ],
 
         resumePath: "Resume/Yash_Resume_2y.pdf",
-        website: "https://yashpal.co"
+        website: "https://yashpal.site"
     },
 
     // System Prompt for Gemini
@@ -401,7 +401,7 @@ BCA (Computer Science, Applied Statistics) — Bharat Institute of Technology, M
 - LinkedIn: https://www.linkedin.com/in/yashpal1/
 - GitHub: https://github.com/yash-pal1
 - Kaggle: https://www.kaggle.com/yashdev01
-- Website: https://yashpal.co
+- Website: https://yashpal.site
 
 **Resume:**
 Available for download at: Resume/Yash_Resume_2y.pdf
@@ -417,7 +417,7 @@ Available for download at: Resume/Yash_Resume_2y.pdf
    - GitHub: https://github.com/yash-pal1
    - Kaggle: https://www.kaggle.com/yashdev01
    - Twitter: https://x.com/yashsaysno
-   - Website: https://yashpal.co
+   - Website: https://yashpal.site
    - Location: Gurugram, Haryana
 5. If asked about the resume, say it’s downloadable on the website.
 6. Keep responses concise but informative.
@@ -644,7 +644,7 @@ Use the quick action buttons below or ask me anything!
 
         // Contact information queries
         if (lowerMessage.match(/contact|reach|email|phone|call|connect|get in touch|communicate/i)) {
-            return `You can contact Yash through:\n\n📧 **Email:** ${info.email}\n📱 **Phone:** ${info.phone}\n🔗 **LinkedIn:** ${info.socialMedia.linkedin}\n🐙 **GitHub:** ${info.socialMedia.github}\n🏆 **Kaggle:** ${info.socialMedia.kaggle}\n🐦 **Twitter/X:** ${info.socialMedia.twitter}\n📝 **Website:** https://yashpal.co\n\n📍 **Location:** ${info.location}`;
+            return `You can contact Yash through:\n\n📧 **Email:** ${info.email}\n📱 **Phone:** ${info.phone}\n🔗 **LinkedIn:** ${info.socialMedia.linkedin}\n🐙 **GitHub:** ${info.socialMedia.github}\n🏆 **Kaggle:** ${info.socialMedia.kaggle}\n🐦 **Twitter/X:** ${info.socialMedia.twitter}\n📝 **Website:** https://yashpal.site\n\n📍 **Location:** ${info.location}`;
         }
 
         // Skills queries
@@ -749,7 +749,7 @@ Use the quick action buttons below or ask me anything!
 
         // Social media queries
         if (lowerMessage.match(/social|linkedin|github|kaggle|twitter|medium|blog/i)) {
-            return `Connect with Yash on:\n\n🔗 **LinkedIn:** ${info.socialMedia.linkedin}\n🐙 **GitHub:** ${info.socialMedia.github}\n🏆 **Kaggle:** ${info.socialMedia.kaggle}\n🐦 **Twitter/X:** ${info.socialMedia.twitter}\n📝 **Website:** https://yashpal.co`;
+            return `Connect with Yash on:\n\n🔗 **LinkedIn:** ${info.socialMedia.linkedin}\n🐙 **GitHub:** ${info.socialMedia.github}\n🏆 **Kaggle:** ${info.socialMedia.kaggle}\n🐦 **Twitter/X:** ${info.socialMedia.twitter}\n📝 **Website:** https://yashpal.site`;
         }
 
         // No match found
