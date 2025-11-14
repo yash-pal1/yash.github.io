@@ -388,7 +388,8 @@ function initProjectsFilter() {
 // Dynamically populate projects
 function initProjectsData() {
     const projectsGrid = document.querySelector('.projects-grid');
-    if (!projectsGrid) return;
+    if (!projectsGrid) {console.log('Hello'); return;}
+
 
     // Sample project data
     const projects = [
@@ -396,7 +397,7 @@ function initProjectsData() {
             id: 1,
             title: "Image Classification from Scratch (CNN)",
             description: "Built CNN models from scratch without pretrained networks. Achieved 91% accuracy with advanced techniques like data augmentation, batch normalization, dropout, and LR scheduling. Includes feature map visualization and error analysis.",
-            image: "https://i.postimg.cc/0QSkyL4C/cnn.jpg",
+            image: "https://i.postimg.cc/bJ1K4PrM/1-Image-Classification.png ",
             category: "ml",
             tags: ["Python", "CNN", "TensorFlow", "Deep Learning", "Computer Vision"],
         },
@@ -404,39 +405,39 @@ function initProjectsData() {
             id: 2,
             title: "Reddit Comment Violation Classifier",
             description: "Developed a transformer-based NLP model using Google Gemma 3 to classify rule violations like hate speech, spam, and harassment. Automated preprocessing and optimized inference pipeline for large-scale moderation.",
-            image: "https://i.postimg.cc/6qbDGwQj/nlp.jpg",
+            image: "https://i.postimg.cc/MK59cTgL/2-Reddit-Vomment-Classification.png",
             category: "ai",
             tags: ["Python", "NLP", "Transformers", "Deep Learning", "Gemma", "Text Classification"],
         },
         {
             id: 3,
+            title: "ML-powered Log Analytics (Elasticsearch + Scikit-Learn)",
+            description: "Designed ML pipelines for anomaly detection and log error classification using Elasticsearch & Scikit-Learn. Enabled automated alerts and improved debugging efficiency by 45%.",
+            image: "https://i.postimg.cc/MK59cTg4/3-ML-Pipeling-Elasticsearch.png",
+            category: "ml",
+            tags: ["Machine Learning", "Elasticsearch", "Scikit-Learn", "Automation"],
+        },
+        {
+            id: 4,
             title: "Azure Entra SSO Integration (Django + Graph API)",
             description: "Integrated Azure Entra SSO with Django REST Framework. Fetched user identity and group details via Microsoft Graph API. Implemented secure role-based access and automated authorization workflows.",
-            image: "https://i.postimg.cc/d1fMZ8Bn/azure.jpg",
+            image: "https://i.postimg.cc/xT56kCBG/4-Azure-Intigration.png",
             category: "backend",
             tags: ["Django", "Graph API", "Authentication", "Azure Entra", "SSO"],
         },
         {
-            id: 4,
+            id: 5,
             title: "NetBox ↔ Aruba Central Automation",
             description: "Automated provisioning between NetBox and Aruba Central using batched API calls and Redis caching. Reduced provisioning time by 40% and automated device+site synchronization.",
-            image: "https://i.postimg.cc/yYqC6hG5/aruba.jpg",
+            image: "https://i.postimg.cc/2S52nYDS/5-Aruba-APIs.png",
             category: "automation",
             tags: ["NetBox", "Aruba Central", "Automation", "Redis", "API Integration"],
-        },
-        {
-            id: 5,
-            title: "ML-powered Log Analytics (Elasticsearch + Scikit-Learn)",
-            description: "Designed ML pipelines for anomaly detection and log error classification using Elasticsearch & Scikit-Learn. Enabled automated alerts and improved debugging efficiency by 45%.",
-            image: "https://i.postimg.cc/wMbYn65C/es.jpg",
-            category: "ml",
-            tags: ["Machine Learning", "Elasticsearch", "Scikit-Learn", "Automation"],
         },
         {
             id: 6,
             title: "NetBox Open-Source Contributions",
             description: "Contributed to NetBox by improving modules, optimizing API performance, fixing bugs, and adding enhancements. Included code reviews and production-grade patch contributions.",
-            image: "https://i.postimg.cc/7hZ2Z0Js/contribute.jpg",
+            image: "https://i.postimg.cc/mgr874sF/6-Net-Box-Open-Source.png ",
             category: "opensource",
             tags: ["Open Source", "NetBox", "Python", "API Optimization"],
         }
@@ -463,8 +464,8 @@ function initProjectsData() {
                             <i class="fas fa-external-link-alt"></i> Live Demo
                         </a>
                     ` : ''}
-                    <a href="${project.codeLink}" class="project-link" target="_blank" rel="noopener">
-                        <i class="fab fa-github"></i> Source Code
+<!--                    <a href="${project.codeLink}" class="project-link" target="_blank" rel="noopener">-->
+<!--                        <i class="fab fa-github"></i> Source Code-->
                     </a>
                 </div>
             </div>
