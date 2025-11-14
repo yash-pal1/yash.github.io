@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Portfolio of Yash – SDE-1 (Machine Learning Engineer). Explore projects, skills, and contact information.">
+    <title>Yash - Machine Learning Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="image" href="image/yash.jpeg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="chatbot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"/>
+    <link rel="shortcut icon" href="image/yash_shortcut_icon.jpeg" type="image/x-icon">
+</head>
+<body>
+<a href="#home" class="skip-link" style="position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden;">Skip
+    to main content</a>
+<!-- Navigation -->
+<nav class="navbar" role="navigation" aria-label="Main">
+    <div class="container">
+        <div class="logo">
+            <h1 id="logo-text">Yash</h1>
+        </div>
+        <button class="menu-toggle" id="mobile-menu" aria-label="Toggle menu" aria-controls="primary-navigation"
+                aria-expanded="false">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <ul class="nav-menu" id="primary-navigation" role="menubar">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+            <li>
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark mode" title="Toggle theme">
+                    <i class="fas fa-moon" aria-hidden="true"></i>
+                </button>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div id="particles-js"></div>
+    <div class="container">
+        <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+            <h1 class="animate-text">Hello, I'm <span class="highlight">Yash</span></h1>
+            <h2 class="animate-text delay-1">I'm a <span id="typing-text"></span></h2>
+            <p class="animate-text delay-2">Welcome to my personal website where I showcase my work and skills.</p>
+            <div class="hero-buttons animate-text delay-3">
+                <a href="#contact" class="btn primary-btn">Contact Me</a>
+                <a href="#projects" class="btn secondary-btn">View My Work</a>
+            </div>
+            <div class="social-icons animate-text delay-4">
+                <a href="https://www.linkedin.com/in/yashpal1" class="social-link" aria-label="LinkedIn" target="_blank"
+                   rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://github.com/yash-pal1" class="social-link" aria-label="GitHub" target="_blank"
+                   rel="noopener"><i class="fab fa-github" aria-hidden="true"></i></a>
+                <a href="https://www.kaggle.com/yashdev01" class="social-link" aria-label="Kaggle" target="_blank"
+                   rel="noopener"><i class="fab fa-kaggle" aria-hidden="true"></i></a>
+                <a href="https://x.com/yashsaysno" class="social-link" aria-label="X (Twitter)" target="_blank"
+                   rel="noopener"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="hero-image animate-text delay-2" data-aos="fade-left" data-aos-duration="1000">
+            <div class="profile-container">
+                <div class="profile-circle">
+                    <img src="image/yash.jpeg" alt="Portrait of Yash" id="profile-img" width="340" height="340"
+                         decoding="async" fetchpriority="high">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about section">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <h2>About Me</h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="about-content">
+            <div class="about-text" data-aos="fade-right" data-aos-duration="800">
+                <h3>Get to know me!</h3>
+
+                <p>
+                    <span class="highlight">Yash</span> is a <span
+                        class="highlight">Software Development Engineer</span>
+                    with strong experience in <span class="highlight">Machine Learning, Deep Learning, NLP,
+                    Computer Vision, Backend Engineering, Cloud Integrations, and Automation</span>.
+                    He enjoys building intelligent, scalable, and high-impact systems.
+                </p>
+
+                <p>
+                    At Onemind Services, I’ve engineered solutions such as
+                    <span class="highlight">Azure Entra SSO integration, NetBox automation workflows,
+                    Aruba Central provisioning, ML-driven log analytics using Elasticsearch,
+                    DiffSync-based synchronization, and CI/CD automation via GitHub Actions</span>.
+                    My work bridges <span class="highlight">ML + Software Engineering + Cloud</span>.
+                </p>
+
+                <p>
+                    I’ve also built end-to-end ML projects including
+                    <span class="highlight">CNN-based image classification from scratch</span> and
+                    <span class="highlight">transformer-based NLP models for content moderation</span>,
+                    along with contributing to <span class="highlight">open-source NetBox development</span>.
+                    Outside of work, I enjoy exploring new technologies and deepening my AI/ML expertise.
+                </p>
+
+                <div class="about-buttons">
+                    <a href="Resume/Yash_Resume_2y.pdf" class="btn primary-btn" id="download-cv">Resume</a>
+                </div>
+            </div>
+
+            <div class="about-details" data-aos="fade-left" data-aos-duration="800">
+
+                <div class="detail-item">
+                    <i class="fas fa-user-graduate"></i>
+                    <div>
+                        <h4>Education</h4>
+                        <p>Bachelor of Computer Applications (Computer Science, Applied Statistics),<br> Bharat
+                            Institute of Technology, Meerut</p>
+                    </div>
+                </div>
+
+                <div class="detail-item">
+                    <i class="fas fa-briefcase"></i>
+                    <div>
+                        <h4>Experience</h4>
+                        <p>Software Development Engineer at Onemind Services LLC</p>
+                    </div>
+                </div>
+
+                <div class="detail-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Gurugram, Haryana</p>
+                    </div>
+                </div>
+
+                <div class="detail-item">
+                    <i class="fas fa-language"></i>
+                    <div>
+                        <h4>Languages</h4>
+                        <p>English, Hindi</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="projects section">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <h2>My Projects</h2>
+            <div class="underline"></div>
+        </div>
+        <!-- <div class="project-filters" data-aos="fade-up" data-aos-delay="200">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">ML Models</button>
+            <button class="filter-btn" data-filter="app">Applications</button>
+            <button class="filter-btn" data-filter="competition">Competitions</button>
+        </div> -->
+        <div class="projects-grid">
+            <!-- Project items will be dynamically generated with JavaScript -->
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills section">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <h2>My Skills</h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="skills-container">
+
+            <!-- Programming & Development -->
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                <h3>Programming & Development</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-python"></i></div>
+                        <h4>Python</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 95%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-code"></i></div>
+                        <h4>C / C++</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-coffee"></i></div>
+                        <h4>Core Java</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 75%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h4>SQL</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-server"></i></div>
+                        <h4>PostgreSQL</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h4>MongoDB</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                        <h4>HTML5</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 95%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                        <h4>CSS3</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-code"></i></div>
+                        <h4>Django & DRF</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-desktop"></i></div>
+                        <h4>PyQt / PySide</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Data Science & Machine Learning -->
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                <h3>Data Science & Machine Learning</h3>
+                <div class="skills-grid">
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                        <h4>Machine Learning</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 92%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                        <h4>Deep Learning</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                        <h4>Statistics</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-eye"></i></div>
+                        <h4>Computer Vision</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 88%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-comment-dots"></i></div>
+                        <h4>NLP</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
+                        <h4>CNN / RNN / GANs</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 87%"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- ML Tools & Frameworks -->
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                <h3>ML Tools & Frameworks</h3>
+                <div class="skills-grid">
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                        <h4>TensorFlow</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                        <h4>PyTorch</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 88%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-rocket"></i></div>
+                        <h4>XGBoost</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-chart-bar"></i></div>
+                        <h4>Scikit-Learn</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 93%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-sigma"></i></div>
+                        <h4>NumPy</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 92%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-table"></i></div>
+                        <h4>Pandas</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-chart-bar"></i></div>
+                        <h4>Matplotlib / Seaborn</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 88%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-language"></i></div>
+                        <h4>NLTK / spaCy</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 85%"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- MLOps, DevOps & Cloud -->
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                <h3>MLOps, DevOps & Cloud</h3>
+                <div class="skills-grid">
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-docker"></i></div>
+                        <h4>Docker</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-sync"></i></div>
+                        <h4>CI/CD (GitHub Actions)</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-search"></i></div>
+                        <h4>Elasticsearch</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                        <h4>Networking</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-id-badge"></i></div>
+                        <h4>Azure Entra SSO</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 82%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                        <h4>Microsoft Graph API</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-cubes"></i></div>
+                        <h4>NetBox Automation</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 88%"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Tech Stack Section -->
+<section id="tech-stack" class="tech-stack section">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <!-- <h2>My Tech Stack</h2> -->
+            <!-- <div class="underline"></div> -->
+        </div>
+
+        <div class="tech-category" data-aos="fade-up" data-aos-delay="200">
+            <h3>Tools & Platforms</h3>
+            <div class="tech-grid">
+
+                <!-- Git -->
+                <div class="tech-item" data-tilt>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                    <span>Git</span>
+                </div>
+
+                <!-- GitHub -->
+                <div class="tech-item" data-tilt>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+                    <span>GitHub</span>
+                </div>
+
+                <!-- GitHub Actions -->
+                <div class="tech-item" data-tilt>
+                    <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/githubactions.svg" alt="GitHub Actions">
+                    <span>GitHub Actions</span>
+                </div>
+
+                <!-- Docker -->
+                <div class="tech-item" data-tilt>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+                    <span>Docker</span>
+                </div>
+
+                <!-- Jupyter -->
+                <div class="tech-item" data-tilt>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="Jupyter">
+                    <span>Jupyter</span>
+                </div>
+
+                <!-- PyCharm -->
+                <div class="tech-item" data-tilt>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" alt="PyCharm">
+                    <span>PyCharm</span>
+                </div>
+
+                <!-- VS Code -->
+                <div class="tech-item" data-tilt>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code">
+                    <span>VS Code</span>
+                </div>
+
+                <!-- Elasticsearch -->
+                <div class="tech-item" data-tilt>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg" alt="Elasticsearch">
+                    <span>Elasticsearch</span>
+                </div>
+
+                <!-- Redis -->
+                <div class="tech-item" data-tilt>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis">
+                    <span>Redis</span>
+                </div>
+
+                <!-- Linux -->
+                <div class="tech-item" data-tilt>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux">
+                    <span>Linux</span>
+                </div>
+
+                <!-- Postman -->
+                <div class="tech-item" data-tilt>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman">
+                    <span>Postman</span>
+                </div>
+
+<!--                &lt;!&ndash; Azure / Microsoft Graph &ndash;&gt;-->
+<!--                <div class="tech-item" data-tilt>-->
+<!--                    <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/microsoftazure.svg" alt="Azure">-->
+<!--                    <span>Azure / Microsoft Graph</span>-->
+<!--                </div>-->
+
+                <!-- DigitalOcean -->
+                <div class="tech-item" data-tilt>
+                    <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/digitalocean.svg" alt="DigitalOcean">
+                    <span>DigitalOcean</span>
+                </div>
+
+<!--                &lt;!&ndash; NetBox &ndash;&gt;-->
+<!--                <div class="tech-item" data-tilt>-->
+<!--                    <img src="https://raw.githubusercontent.com/netbox-community/netbox/release/logo/netbox-color.svg" alt="NetBox">-->
+<!--                    <span>NetBox</span>-->
+<!--                </div>-->
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="contact section">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Contact Me</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info" data-aos="fade-right" data-aos-duration="800">
+                <h3>Get In Touch</h3>
+                <p>Feel free to reach out to me for any questions or opportunities!</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>yashpal86300@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Gurugram, Haryana</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Code snippet showcase -->
+            <div class="contact-code" data-aos="fade-left" data-aos-duration="800">
+                <div class="code-snippet-container">
+                    <div class="code-header">
+                        <span class="code-title">Python ML Code Sample</span>
+                        <div class="code-actions">
+                            <span class="code-dot red"></span>
+                            <span class="code-dot yellow"></span>
+                            <span class="code-dot green"></span>
+                        </div>
+                    </div>
+                    <pre><code class="language-python">
+# Advanced Machine Learning Pipeline with Scikit-learn
+
+import numpy as np
+import joblib
+from sklearn.datasets import load_breast_cancer
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.preprocessing import StandardScaler
+from sklearn.pipeline import Pipeline
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score, classification_report
+
+# Load dataset
+data = load_breast_cancer()
+X, y = data.data, data.target
+
+# Train-test split
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.25, random_state=42, stratify=y
+)
+
+# Build pipeline (scaling + model)
+pipeline = Pipeline([
+    ("scaler", StandardScaler()),
+    ("clf", RandomForestClassifier(random_state=42))
+])
+
+# Hyperparameter tuning
+param_grid = {
+    "clf__n_estimators": [100, 200, 300],
+    "clf__max_depth": [None, 5, 10, 20],
+    "clf__min_samples_split": [2, 5, 10],
+}
+
+grid = GridSearchCV(
+    estimator=pipeline,
+    param_grid=param_grid,
+    cv=5,
+    n_jobs=-1,
+    scoring="accuracy",
+)
+
+# Train optimized model
+grid.fit(X_train, y_train)
+
+# Best model from GridSearch
+best_model = grid.best_estimator_
+
+print("Best Parameters:", grid.best_params_)
+
+# Prediction
+y_pred = best_model.predict(X_test)
+
+# Evaluation
+accuracy = accuracy_score(y_test, y_pred)
+print(f"\nTest Accuracy: {accuracy:.4f}\n")
+print(classification_report(y_test, y_pred))
+
+# Feature importance (from RandomForest)
+rf = best_model.named_steps["clf"]
+importances = rf.feature_importances_
+
+print("Top 5 Important Features:")
+top_idx = np.argsort(importances)[-5:][::-1]
+for idx in top_idx:
+    print(f"{data.feature_names[idx]}: {importances[idx]:.4f}")
+
+# Save model
+joblib.dump(best_model, "optimized_random_forest.pkl")
+print("\nModel saved as optimized_random_forest.pkl")
+</code></pre>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>Yash</h2>
+            </div>
+            <p>Thanks for visiting my portfolio website.</p>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/yashpal1" class="social-link" aria-label="LinkedIn" target="_blank"
+                   rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://github.com/yash-pal1" class="social-link" aria-label="GitHub" target="_blank"
+                   rel="noopener"><i class="fab fa-github" aria-hidden="true"></i></a>
+                <a href="https://www.kaggle.com/yashdev01" class="social-link" aria-label="Kaggle" target="_blank"
+                   rel="noopener"><i class="fab fa-kaggle" aria-hidden="true"></i></a>
+                <a href="https://x.com/yashsaysno" class="social-link" aria-label="X (Twitter)" target="_blank"
+                   rel="noopener"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> Yash. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Back to Top Button -->
+<button id="back-to-top" class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up" aria-hidden="true"></i>
+</button>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" defer></script>
+<script src="ab.js" defer></script>
+<script src="script.js" defer></script>
+<script src="chatbot.js" defer></script>
+</body>
+</html> 
